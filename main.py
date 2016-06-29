@@ -7,7 +7,7 @@ import datetime
 def main():
     origin = os.environ.get("ORIGIN")
     destination = os.environ.get("DESTINATION")
-    file_path = os.environ.get("FILE_PATH")
+    file_path = os.environ.get("DIR") + "/data.csv"
     if origin is None or destination is None or file_path is None:
         print "Set environment variables for ORIGIN, DESTINATION, and FILE_PATH"
         sys.exit(1)
