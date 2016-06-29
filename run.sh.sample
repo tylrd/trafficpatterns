@@ -4,6 +4,7 @@ export ORIGIN=
 export DESTINATION=
 export GOOGLE_API_KEY=
 export FILE_PATH=
+export DIR=
 
-python main.py
+python "$DIR/main.py"
 
