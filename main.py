@@ -16,7 +16,7 @@ def main():
     duration = calculator.calculate()
 
     f = open(file_path, 'a+')
-    f.write(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "," + duration)
+    f.write(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S') + "," + duration + "\n")
     f.close()
 
 
