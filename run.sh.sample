@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+export ORIGIN=
+export DESTINATION=
+export GOOGLE_API_KEY=
+export FILE_PATH=
+
+python main.py
+
